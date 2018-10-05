@@ -1,1 +1,0 @@
-help("quandl.get")
