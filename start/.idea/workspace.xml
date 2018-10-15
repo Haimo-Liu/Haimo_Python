@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246f8716-ea23-4d1d-bb47-5f3086bbf580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ml/linearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/breast_cancer_k_nearest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/k_nearest_neighbors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/stock_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/stock_price.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/linearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/linearRegression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,29 +26,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="178" />
-          <entry key="py" value="3015" />
+          <entry key="py" value="4736" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3193" />
+          <entry key="Python" value="4914" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml/linearRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1455">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1539638862983" expanded="true" signature="293:715" ph="..." />
+                <marker date="1539638862983" expanded="true" signature="1710:1982" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ml/stock_price.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,13 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ml/linearRegression.py">
+        <entry file="file://$PROJECT_DIR$/ml/k_nearest_neighbors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -93,14 +105,16 @@
         <option value="$PROJECT_DIR$/stock_price.py" />
         <option value="$PROJECT_DIR$/ml/stock_price.py" />
         <option value="$PROJECT_DIR$/ml/linearRegression.py" />
+        <option value="$PROJECT_DIR$/ml/breast_cancer_k_nearest.py" />
+        <option value="$PROJECT_DIR$/ml/k_nearest_neighbors.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3540" />
-    <option name="y" value="54" />
+    <option name="x" value="3446" />
+    <option name="y" value="-1" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linearRegression">
+  <component name="RunManager" selected="Python.k_nearest_neighbors">
     <configuration name="help" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="start" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="irisAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="k_nearest_neighbors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="start" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +193,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/irisAnalysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/k_nearest_neighbors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,19 +270,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.irisAnalysis" />
       <item itemvalue="Python.help" />
       <item itemvalue="Python.stock_price" />
       <item itemvalue="Python.stock_price (1)" />
       <item itemvalue="Python.linearRegression" />
+      <item itemvalue="Python.k_nearest_neighbors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.k_nearest_neighbors" />
         <item itemvalue="Python.linearRegression" />
         <item itemvalue="Python.stock_price (1)" />
         <item itemvalue="Python.stock_price" />
         <item itemvalue="Python.help" />
-        <item itemvalue="Python.irisAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -295,15 +309,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3540" y="54" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
+    <frame x="3446" y="-1" width="1440" height="858" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3472222" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32637075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,6 +372,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ml/linearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1539638862983" expanded="true" signature="293:715" ph="..." />
+            <marker date="1539638862983" expanded="true" signature="1710:1982" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ml/stock_price.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -369,13 +394,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml/linearRegression.py">
+    <entry file="file://$PROJECT_DIR$/ml/breast_cancer_k_nearest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="645">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/k_nearest_neighbors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
