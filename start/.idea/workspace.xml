@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246f8716-ea23-4d1d-bb47-5f3086bbf580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ml/breast_cancer_k_nearest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/k_nearest_neighbors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/linearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/linearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/k_nearest_neighbors.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/k_nearest_neighbors.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,38 +24,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="178" />
-          <entry key="py" value="4736" />
+          <entry key="py" value="7311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4914" />
+          <entry key="Python" value="7489" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/linearRegression.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml/k_nearest_neighbors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="248">
+              <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1539808852634" expanded="true" signature="1208:2671" ph="..." />
+                <marker date="1539808852634" expanded="true" signature="2628:2633" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml/breast_cancer_k_nearest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1539638862983" expanded="true" signature="293:715" ph="..." />
-                <marker date="1539638862983" expanded="true" signature="1710:1982" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,20 +76,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ml/stock_price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
+            <state relative-caret-position="673">
               <caret line="49" selection-start-line="49" selection-end-line="50" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ml/k_nearest_neighbors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -104,15 +105,15 @@
         <option value="$PROJECT_DIR$/ml/__init__.py" />
         <option value="$PROJECT_DIR$/stock_price.py" />
         <option value="$PROJECT_DIR$/ml/stock_price.py" />
-        <option value="$PROJECT_DIR$/ml/linearRegression.py" />
         <option value="$PROJECT_DIR$/ml/breast_cancer_k_nearest.py" />
+        <option value="$PROJECT_DIR$/ml/linearRegression.py" />
         <option value="$PROJECT_DIR$/ml/k_nearest_neighbors.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3446" />
-    <option name="y" value="-1" />
+    <option name="x" value="3498" />
+    <option name="y" value="198" />
     <option name="width" value="1440" />
     <option name="height" value="858" />
   </component>
@@ -309,14 +310,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3446" y="-1" width="1440" height="858" extended-state="0" />
+    <frame x="3498" y="198" width="1440" height="858" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32637075" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32637075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,19 +376,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/linearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="1149">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1539638862983" expanded="true" signature="293:715" ph="..." />
-            <marker date="1539638862983" expanded="true" signature="1710:1982" ph="..." />
+            <marker date="1539729951752" expanded="true" signature="293:715" ph="..." />
+            <marker date="1539729951752" expanded="true" signature="1710:1982" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/stock_price.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="673">
           <caret line="49" selection-start-line="49" selection-end-line="50" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -396,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/breast_cancer_k_nearest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="287">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -406,8 +408,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/k_nearest_neighbors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="248">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1539808852634" expanded="true" signature="1208:2671" ph="..." />
+            <marker date="1539808852634" expanded="true" signature="2628:2633" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
