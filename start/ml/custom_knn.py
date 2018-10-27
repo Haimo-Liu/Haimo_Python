@@ -103,12 +103,13 @@ def apply_breast_cancer():
     print(sum(accuracies) * 1.0 / len(accuracies))
 
 
-# def test2():
-#     test = {2:[], 4:[]}
-#     print(test)
+def test2():
+    test = {2:[1,2], 4:[3,4]}
+    print(test)
 
 
 
 if __name__ =='__main__':
     apply_breast_cancer()
+    test2()
 
