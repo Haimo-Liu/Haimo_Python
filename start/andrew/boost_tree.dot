@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="hindi_per_persn_refresh <= 156.705\nfriedman_mse = 0.001\nsamples = 209\nvalue = 0.0"] ;
+1 [label="hindi_per_person_click_PV <= 12.899\nfriedman_mse = 0.001\nsamples = 145\nvalue = -0.014"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="hindi_refresh_ctr <= 0.063\nfriedman_mse = 0.001\nsamples = 64\nvalue = -0.026"] ;
+1 -> 2 ;
+3 [label="friedman_mse = 0.0\nsamples = 16\nvalue = -0.014"] ;
+2 -> 3 ;
+4 [label="friedman_mse = 0.001\nsamples = 48\nvalue = -0.03"] ;
+2 -> 4 ;
+5 [label="hindi_clicked_articles <= 92604.0\nfriedman_mse = 0.0\nsamples = 81\nvalue = -0.005"] ;
+1 -> 5 ;
+6 [label="friedman_mse = 0.0\nsamples = 5\nvalue = -0.038"] ;
+5 -> 6 ;
+7 [label="friedman_mse = 0.0\nsamples = 76\nvalue = -0.003"] ;
+5 -> 7 ;
+8 [label="hindi_refresh_click_conversion <= 0.802\nfriedman_mse = 0.0\nsamples = 64\nvalue = 0.032"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="hindi_refresh_load_success <= 0.95\nfriedman_mse = 0.0\nsamples = 44\nvalue = 0.025"] ;
+8 -> 9 ;
+10 [label="friedman_mse = 0.0\nsamples = 10\nvalue = 0.044"] ;
+9 -> 10 ;
+11 [label="friedman_mse = 0.0\nsamples = 34\nvalue = 0.019"] ;
+9 -> 11 ;
+12 [label="hindi_refresh_ctr <= 0.068\nfriedman_mse = 0.0\nsamples = 20\nvalue = 0.049"] ;
+8 -> 12 ;
+13 [label="friedman_mse = 0.0\nsamples = 16\nvalue = 0.052"] ;
+12 -> 13 ;
+14 [label="friedman_mse = 0.0\nsamples = 4\nvalue = 0.037"] ;
+12 -> 14 ;
+}
