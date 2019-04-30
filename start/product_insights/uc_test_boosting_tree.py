@@ -41,30 +41,44 @@ print('Testing Features Shape:', test_features.shape)
 print('Testing Labels Shape:', test_labels.shape)
 
 
-boost = GradientBoostingRegressor(n_estimators=100, max_depth=3)
+# boost = GradientBoostingRegressor(n_estimators=10, max_depth=3, subsample=0.8)
+#
+# boost.fit(train_features, train_labels)
+#
+# predictions = boost.predict(test_features)
+#
+# weights = list(boost.oob_improvement_)
+# print(weights)
+
+
+boost = GradientBoostingRegressor(n_estimators=10, max_depth=3)
 
 boost.fit(train_features, train_labels)
 
+# boost.fit(train_features, np.ones(train_features.shape[0]))
+
 predictions = boost.predict(test_features)
 
-errors = abs(predictions - test_labels)
-mape = 100 * (errors / test_labels)
-accuracy = 100 - np.mean(mape)
-print('Accuracy:', round(accuracy, 2), '%.')
+
+
+# errors = abs(predictions - test_labels)
+# mape = 100 * (errors / test_labels)
+# accuracy = 100 - np.mean(mape)
+# print('Accuracy:', round(accuracy, 2), '%.')
 
 
 tree = boost.estimators_[0, 0]
+# print(tree.tree_.value.shape)
 export_graphviz(tree, out_file='boost_tree.dot', feature_names=feature_list)
 (graph, ) = pydot.graph_from_dot_file('boost_tree.dot')
 
 s = Source.from_file('boost_tree.dot')
 s.view()
 
-# graph.write_png('boost_tree.png')
 
+importances = list(boost.feature_importances_)
+feature_importances = [(feature, round(importance, 2)) for feature, importance in zip(feature_list, importances)]
+feature_importances = sorted(feature_importances, key = lambda x: x[1], reverse = True)
+for pair in feature_importances:
+    print('Variable: {:20} Importance: {}'.format(*pair))
 
-# importances = list(boost.feature_importances_)
-# feature_importances = [(feature, round(importance, 2)) for feature, importance in zip(feature_list, importances)]
-# feature_importances = sorted(feature_importances, key = lambda x: x[1], reverse = True)
-# for pair in feature_importances:
-#     print('Variable: {:20} Importance: {}'.format(*pair))
